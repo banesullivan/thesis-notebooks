@@ -1,0 +1,13 @@
+name: thesis-environment
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - pyvista
+  - matplotlib
+  - gstools
+  - jupyter
+  - pip
+  - pip:
+    - PVGeo
+    - omfvista
