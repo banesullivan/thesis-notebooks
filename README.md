@@ -11,7 +11,10 @@ conda env create -f environment.yml
 conda activate thesis-environment
 ```
 
-Then launch Jupyter notebook and open the notebooks:
+Then, extract the Mount St. Helens data archive by unzipping `data/MSH.zip`
+into the `data/` directory.
+
+Finally, launch Jupyter notebook and open the notebooks:
 
 ```bash
 jupyter notebook
